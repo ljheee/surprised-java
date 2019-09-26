@@ -10,3 +10,8 @@
     演示IntegerLock
 2、synchronized(Integer)，在同步块修改Integer的值，此时每次锁住的都是不同的对象实例(valueOf()不在缓冲区的都产生新Integer)。
     演示IntegerLock
+    
+    
+threadlocal
+- ThreadLocal 为什么会造成内存泄露
+- InheritableThreadLocal 在使用线程池时的缺陷
