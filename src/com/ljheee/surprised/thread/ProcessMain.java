@@ -20,6 +20,14 @@ public class ProcessMain {
      * 2:Reference Handler
      * 1:main
      *
+     *"Low Memory Detector" 负责对可使用内存进行检测，如果发现可用内存低，分配新的内存空间。
+     *"CompilerThread0" 用来调用JITing，实时编译装卸class。
+     *"Signal Dispatcher" 负责分发内部事件。
+     *"Finalizer" 负责调用Finalizer方法。
+     *"Reference Handler" 负责处理引用。
+     *"VM Thread"， "VM Periodic Task Thread"从名字上看是虚机内部线程。
+     *"main" 是主线程。
+     *
      * @param args
      */
     public static void main(String[] args) {
