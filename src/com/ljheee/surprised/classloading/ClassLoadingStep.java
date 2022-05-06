@@ -20,7 +20,7 @@ class Singleton {
 
     private static Singleton singleton = new Singleton();
 
-    public Singleton() {
+    private Singleton() {
         numA++;
         numB++;
         System.out.println("numA=" + numA);
